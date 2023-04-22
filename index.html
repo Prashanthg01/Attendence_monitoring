@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="info" class="display">1VE19EC001</p>
+    <table>
+<tr style="display: flex;">
+    <td>
+    <div>
+        <button class="button-30 button-1" onclick="appendabsentes()" role="button">Absent</button>
+    </div>
+</td>
+<td>
+    <div>
+        <button class="button-30 btn-31" onclick="appendArray()" role="button">Present</button>
+        <p id="absente"></p>
+    </div>
+</td>
+</tr>
+<tr>
+    <td>
+        <button class="button-30 btn-5" onclick="attendence()">Attendence Report</button>
+    </td>
+</tr>
+<tr>
+    <td>
+        <button class="button-30 button-3">Get print out</button>
+    </td>
+</tr>
+<tr class="tr-2">
+    <td>
+    <div>
+        <h1 class="result-left sub pr">Num of Presentes: </h1>
+        <p class="result-left" id="presents"></p>
+    </div>
+</td>
+<td>
+    <div>
+        <div class="result-left sub ab">Num of Absentes: </div>
+        <div class="result-right" id="absentes"></div>
+    </div>
+</td>
+</tr>
+</table>
+<script src="script.js"></script>
+</body>
+</html>
